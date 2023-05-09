@@ -17,7 +17,7 @@ Links to this page *will __NOT__* work.
 
 Using the `subpagesForSections = 2` setting,
 This will be a sub section on the `Foo Page Section` .
-Links to this page *will __NOT__* work.
+Links to this section *will* work.
 
 == Bar Page
 
