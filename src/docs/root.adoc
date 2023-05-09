@@ -1,0 +1,7 @@
+= Document Title
+
+:leveloffset: +1
+
+<<<
+include::foo.adoc[]
+

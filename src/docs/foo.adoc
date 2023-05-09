@@ -1,0 +1,29 @@
+[#foobar]
+= FooBar Page
+
+Using the `subpagesForSections = 2` setting,
+This will be a separate Confluence Page.
+Links to this page *will* work.
+
+[#foo]
+== Foo Page
+
+Using the `subpagesForSections = 2` setting,
+This will be a separate Confluence Page (as a child of <<foo.adoc#foobar,FooBar Page>>)
+Links to this page *will __NOT__* work.
+
+[#foo_subsection]
+=== Foo Page Subsection 
+
+Using the `subpagesForSections = 2` setting,
+This will be a sub section on the `Foo Page Section` .
+Links to this page *will __NOT__* work.
+
+== Bar Page
+
+Using the `subpagesForSections = 2` setting,
+This will be a separate Confluence Page (as a child of <<foo.adoc#foobar,FooBar Page>>)
+
+Here's a non-working link to <<foo.adoc#foo,Foo Page>>
+
+Here's a working link to <<foo.adoc#foo_subsection,Foo Page Subsection>>
